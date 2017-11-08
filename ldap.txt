@@ -1,0 +1,15 @@
+#Configuració servidor
+
+hostname:ldapserver
+
+ip:192.168.100.1
+
+domini:sox.com
+
+#Grups LDAP amb usuaris
+
+smx:usu1,usu2,usu3,usu4
+
+som:usu1,usu2,usu3
+
+sox:usu3,usu4

@@ -1,0 +1,171 @@
+dn: ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou:People
+
+dn: ou=Group,dc=sox,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Group
+
+dn: cn=smx,ou=Group,dc=sox,dc=com
+objectClass:top
+objectClass:posixGroup
+gidNumber:2000
+cn:smx
+
+dn: uid=usu1smx,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu1
+uid: usu1
+uidNumber: 3000
+gidNumber: 2000
+homeDirectory: /home/users/usu1
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu1
+mail: usu1@sox.com
+givenName: usu1
+
+dn: uid=usu2smx,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu2
+uid: usu2
+uidNumber: 3001
+gidNumber: 2000
+homeDirectory: /home/users/usu2
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu2
+mail: usu2@sox.com
+givenName: usu2
+
+dn: uid=usu3smx,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu3
+uid: usu3
+uidNumber: 3002
+gidNumber: 2000
+homeDirectory: /home/users/usu3
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu3
+mail: usu3@sox.com
+givenName: usu3
+
+dn: uid=usu4smx,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu4
+uid: usu4
+uidNumber: 3003
+gidNumber: 2000
+homeDirectory: /home/users/usu4
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu4
+mail: usu4@sox.com
+givenName: usu4
+
+dn: cn=som,ou=Group,dc=sox,dc=com
+objectClass:top
+objectClass:posixGroup
+gidNumber:2001
+cn:som
+
+dn: uid=usu1som,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu1
+uid: usu1
+uidNumber: 3004
+gidNumber: 2001
+homeDirectory: /home/users/usu1
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu1
+mail: usu1@sox.com
+givenName: usu1
+
+dn: uid=usu2som,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu2
+uid: usu2
+uidNumber: 3005
+gidNumber: 2001
+homeDirectory: /home/users/usu2
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu2
+mail: usu2@sox.com
+givenName: usu2
+
+dn: uid=usu3som,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu3
+uid: usu3
+uidNumber: 3006
+gidNumber: 2001
+homeDirectory: /home/users/usu3
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu3
+mail: usu3@sox.com
+givenName: usu3
+
+dn: cn=sox,ou=Group,dc=sox,dc=com
+objectClass:top
+objectClass:posixGroup
+gidNumber:2002
+cn:sox
+
+dn: uid=usu3sox,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu3
+uid: usu3
+uidNumber: 3007
+gidNumber: 2002
+homeDirectory: /home/users/usu3
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu3
+mail: usu3@sox.com
+givenName: usu3
+
+dn: uid=usu4sox,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: usu4
+uid: usu4
+uidNumber: 3008
+gidNumber: 2002
+homeDirectory: /home/users/usu4
+loginShell: /bin/bash
+userPassword: {crypt}x
+sn: usu4
+mail: usu4@sox.com
+givenName: usu4
