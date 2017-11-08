@@ -41,7 +41,7 @@ sudo systemctl restart apache2
 echo "Incluyendo nueva tarjeta de red"
 echo "auto enp0s8" >> /etc/network/interfaces
 echo "iface enp0s8 inet static" >> /etc/network/interfaces
-echo "  address $newIP" >> /etc/network/interfaces
+echo "  address $newIp" >> /etc/network/interfaces
 echo "  netmask 255.255.255.0" >> /etc/network/interfaces
 echo "  dns-nameservers 172.27.111.5 172.16.99.119" >> /etc/network/interfaces
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
