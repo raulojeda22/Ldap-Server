@@ -22,7 +22,7 @@ sudo apt-get -y install phpldapadmin
 sudo chmod 777 /etc/phpldapadmin/config.php 
 serverHost="\$servers->setValue('server','host','$newIp');"
 serverBase="\$servers->setValue('server','base',array('dc=$newDomain1,dc=$newDomain2'));"
-serverLogin="\$servers->setValue('login','bind_id','cd=admin,dc=$newDomain1,dc=$newDomain2');"
+serverLogin="\$servers->setValue('login','bind_id','cn=admin,dc=$newDomain1,dc=$newDomain2');"
 config="// \$config->custom-appearence['hide_template_warning'] = true;"
 sudo sed -i '/?>/d' /etc/phpldapadmin/config.php
 sudo echo "$serverHost
