@@ -26,20 +26,21 @@ cn:$grupActual" >> afegirGrupsiUsuaris.ldif
 usuaris=`echo "$grupsUsuaris" | grep ^$grupActual | cut -d":" -f2 | tr , " "`
 for usuariActual in $usuaris
 do
+contrasenya=`slappasswd -h {SHA} -s $usuariActual$grupActual`
 echo "
 dn: uid=$usuariActual$grupActual,ou=People,dc=$newDomain1,dc=$newDomain2
 objectClass: top
 objectClass: posixAccount
 objectClass: inetOrgPerson
 objectClass: person
-cn: $usuariActual
-uid: $usuariActual
+cn: $usuariActual$grupActual
+uid: $usuariActual$grupActual
 uidNumber: $contadorUsuaris
 gidNumber: $contadorGrups
-homeDirectory: /home/users/$usuariActual
+homeDirectory: /home/users/$usuariActual$grupActual
 loginShell: /bin/bash
-userPassword: {crypt}x
-sn: $usuariActual
+userPassword: $contrasenya
+sn: Iestacio
 mail: $usuariActual@$newDomain1.$newDomain2
 givenName: $usuariActual" >> afegirGrupsiUsuaris.ldif
 
