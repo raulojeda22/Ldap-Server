@@ -1,0 +1,15 @@
+dn: uid=canviaNumeros,ou=People,dc=sox,dc=com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: canviaNumeros
+uid: canviaNumeros
+uidNumber: 3000
+gidNumber: 2000
+homeDirectory: /home/users/usu1
+loginShell: /bin/bash
+userPassword: {SHA}SXz83ZeM61ylDeForhjAT06wJLI=
+sn: canviaNumeros
+mail: canviaNumeros@sox.com
+givenName: canviaNumeros
