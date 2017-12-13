@@ -1,5 +1,9 @@
 # Ldap-Server
-Crear servidor Ldap
+"Translate it from catalonian"
+
+You can see it better here: https://docs.google.com/document/d/1BvnV4BszgY_zXk_sUTVkL74VgbhIZ5ZrCzkwvtT8r1g/edit?usp=sharing
+
+Crear servidor Ldap amb Samba
 
 Per a crear servidor LDAP
 
