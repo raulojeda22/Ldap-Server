@@ -1,10 +1,16 @@
 # Ldap-Server
 Crear servidor Ldap
+
 Per a crear servidor LDAP
+
 Crear una màquina virtual de Ubuntu Server en VirtualBox.
+
 Configurar la màquina (Paràmetres -> Xarxa) amb dues targetes de xarxa, Adaptador pont i Xarxa Interna.
+
 Instalar Ubuntu Server Xenial i iniciar la màquina virtual.
+
 Instalar el paquet git (sudo apt-get install git).
+
 Baixar el repositori Ldap-Server (git clone https://github.com/raulojeda22/Ldap-Server.git).
 Introdueix els següents comandaments:
 $ cd Ldap-Server
