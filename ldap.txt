@@ -8,8 +8,8 @@ domini:raulsox.com
 
 #Grups LDAP amb usuaris
 
-smx:usu1,usu2,usu3,usu4
+usuaris:usu1,usu2,usu3,usu4
 
-som:usu1,usu2,usu3
+alumnes:raula,juana
 
-sox:usu3,usu4
+professors:raulp,juanp
