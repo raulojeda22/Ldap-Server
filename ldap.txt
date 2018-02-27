@@ -1,10 +1,10 @@
 #Configuració servidor
 
-hostname:ldapserver
+hostname:raulserver
 
-ip:192.168.100.1
+ip:192.168.1.1
 
-domini:sox.com
+domini:raulsox.com
 
 #Grups LDAP amb usuaris
 
